@@ -8,23 +8,37 @@ body{
     background-color: black;
     color: blanchedalmond;
 }
+
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
 }
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 10rem;
+}
+h2{
+    font-size: 1rem;
+    margin-bottom: 15rem;
+}
+
+@media (min-width: 768px) {
+
 h1{
     font-size: 8rem;
-    margin-bottom: 0;
 }
 .frame h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 0;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
+}
 }
 
 .frame{
     background-image: url("/img/rami-al-zayat-w33-zg-dNL4-unsplash.jpg");
-    height: 800px; /* You must set a specified height */
+    height: 70vh; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -47,7 +61,7 @@ h1{
     text-decoration: none;
 }
 .btn:hover{
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
 }
 
 /* Contacto */
@@ -61,23 +75,36 @@ h1{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 800px;
+    max-width: 800px;
+}
+.nombre{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .nombre label{
     display: inline-block;
-    width: 10%;
+    margin-right: 1rem;
+    flex-basis: calc(15%);
 }
-
 .email label{
     display: inline-block;
-    width: 10%;
+    margin-right: 1rem;
+    flex-basis: calc(15%);
 }
+
 input{
-    width: 80%;
     background-color: blanchedalmond;
     border: none;
     height: 3rem;
     margin-top: 2rem;
+    margin-right: 5rem;
+    flex-basis: calc(80%);
 }
 .texto-mensaje{
     display: flex;
@@ -90,7 +117,7 @@ input{
     justify-content: center;
 }
 .mensaje textarea{
-    width: 80%;
+    width: 90%;
     background-color: blanchedalmond;
     border: none;
     height: 15rem;
