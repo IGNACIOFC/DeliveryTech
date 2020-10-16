@@ -1,0 +1,113 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Rhodium Libre', serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: black;
+    color: blanchedalmond;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+h1{
+    font-size: 8rem;
+    margin-bottom: 0;
+}
+.frame h2{
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 20rem;
+}
+
+.frame{
+    background-image: url("/img/rami-al-zayat-w33-zg-dNL4-unsplash.jpg");
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    background-color:blanchedalmond;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover{
+    padding: 2rem 6rem;
+}
+
+/* Contacto */
+.contacto h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 7rem;
+    border-bottom: 2px solid blanchedalmond;
+}
+.contacto form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 800px;
+}
+.nombre label{
+    display: inline-block;
+    width: 10%;
+}
+
+.email label{
+    display: inline-block;
+    width: 10%;
+}
+input{
+    width: 80%;
+    background-color: blanchedalmond;
+    border: none;
+    height: 3rem;
+    margin-top: 2rem;
+}
+.texto-mensaje{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.contenido-mensaje{
+    display: flex;
+    justify-content: center;
+}
+.mensaje textarea{
+    width: 80%;
+    background-color: blanchedalmond;
+    border: none;
+    height: 15rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
